@@ -1,5 +1,6 @@
 channels:
   - conda-forge
+  - pyviz
 dependencies:
   - python=3
   - bokeh=1.0.4
@@ -14,7 +15,6 @@ dependencies:
   - pyarrow==0.10.0
   - python-graphviz
   - seaborn
-  - scikit-learn=0.20
   - matplotlib
   - nbserverproxy
   - nomkl
@@ -22,6 +22,8 @@ dependencies:
   - xarray
   - bottleneck
   - py-xgboost
+  - holoviews 
+  - geoviews
   - pip:
     - dask_xgboost
     - mimesis
