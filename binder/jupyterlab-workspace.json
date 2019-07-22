@@ -77,9 +77,9 @@
         "widgets": []
       }
     },
-    "markdownviewer-widget:Welcome.md": {
+    "markdownviewer-widget:README.md": {
       "data": {
-        "path": "Welcome.md",
+        "path": "README.md",
         "factory": "Markdown Preview"
       }
     },
