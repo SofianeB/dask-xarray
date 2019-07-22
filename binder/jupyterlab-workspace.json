@@ -29,7 +29,7 @@
               "type": "tab-area",
               "currentIndex": 0,
               "widgets": [
-                "markdownviewer-widget:README.md"
+                "markdownviewer-widget:Welcome.md"
               ]
             },
             {
@@ -59,7 +59,7 @@
           ]
         },
         "mode": "multiple-document",
-        "current": "markdownviewer-widget:README.md"
+        "current": "markdownviewer-widget:Welcome.md"
       },
       "left": {
         "collapsed": false,
@@ -77,9 +77,9 @@
         "widgets": []
       }
     },
-    "markdownviewer-widget:README.md": {
+    "markdownviewer-widget:Welcome.md": {
       "data": {
-        "path": "README.md",
+        "path": "Welcome.md",
         "factory": "Markdown Preview"
       }
     },
