@@ -23,6 +23,7 @@ dependencies:
   - h5py
   - xarray
   - bottleneck
+  - jupyterlab
   - py-xgboost
   - holoviews 
   - geoviews
