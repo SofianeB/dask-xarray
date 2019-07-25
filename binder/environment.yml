@@ -23,13 +23,12 @@ dependencies:
   - h5py
   - xarray
   - bottleneck
-  - jupyterlab==0.35.6
   - py-xgboost
   - holoviews 
   - geoviews
   - pip:
     - dask_xgboost
     - mimesis
-    - jupyterlab==0.35.6
+    - jupyterlab
     - dask-labextension
     - wget
