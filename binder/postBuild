@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Install the JupyterLab dask-labextension
-#jupyter labextension install dask-labextension@0.4.0-pre.3
+jupyter labextension install dask-labextension@0.4.0-pre.3
 
 jupyter serverextension enable --py nbserverproxy --sys-prefix
-jupyter labextension install @jupyter-widgets/jupyterlab-manager \
-                             @jupyterlab/hub-extension@0.12 \
-                             @pyviz/jupyterlab_pyviz \
-                             jupyter-leaflet \
-                             dask-labextension@0.3.3
+#jupyter labextension install @jupyter-widgets/jupyterlab-manager \
+#                             @jupyterlab/hub-extension@0.12 \
+#                             @pyviz/jupyterlab_pyviz \
+#                             jupyter-leaflet \
+#                             dask-labextension@0.3.3
 
 #EOF
