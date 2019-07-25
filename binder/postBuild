@@ -10,4 +10,4 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              jupyter-leaflet \
                              dask-labextension@0.3.3
 
-EOF
+#EOF
