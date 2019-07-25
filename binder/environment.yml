@@ -31,5 +31,5 @@ dependencies:
     - dask_xgboost
     - mimesis
     - jupyterlab==0.35.6
-    - dask-labextension==0.3.3
+    - dask-labextension
     - wget
