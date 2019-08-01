@@ -19,6 +19,7 @@ dependencies:
   - seaborn
   - matplotlib
   - nbserverproxy
+  - jupyterlab>=1.0
   - nomkl
   - h5py
   - xarray
@@ -29,6 +30,5 @@ dependencies:
   - pip:
     - dask_xgboost
     - mimesis
-    - jupyterlab
-    - dask-labextension
+    - dask-labextension>=1.0
     - wget
