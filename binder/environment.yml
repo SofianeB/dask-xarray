@@ -1,34 +1,41 @@
+name: geo-stack
 channels:
   - conda-forge
-  - pyviz
 dependencies:
-  - python=3
-  - notebook<5.7.5
-  - bokeh=1.1.0
-  - dask=1.2.0
-  - dask-image=0.2.0
-  - nodejs=8.9
-  - notebook<5.7.5
+  - python=3.6
+  - scipy
+  - xarray
+  - matplotlib
+  - dask
+  - distributed
+  - intake
+  - intake-xarray
+  - bokeh
+  - holoviews>=1.12.3
+  - panel
+  - geoviews
+  - hvplot
+  - rasterio
+  - geoviews
+  - datashader
+  - netcdf4
+  - zarr
+  - numcodecs
+  - python-blosc
+  - lz4
+  - nbserverproxy
+  - jupyter
+  - jupyterlab
+  - ipywidgets
+  - ipyleaflet
+  - tornado=5.1.1
+  - python-wget
+  - pip
   - nc-time-axis
-  - tornado=5
-  - cartopy
   - numpy
   - pandas
-  - pyarrow==0.10.0
-  - python-graphviz
-  - seaborn
-  - matplotlib
-  - nbserverproxy
-  - jupyterlab>=1.0
-  - nomkl
-  - h5py
-  - xarray
-  - bottleneck
-  - py-xgboost
-  - holoviews 
-  - geoviews
+  - python-wget
   - pip:
-    - dask_xgboost
-    - mimesis
-    - dask-labextension>=1.0
-    - wget
+    - graphviz
+    - dask_labextension==0.3.3
+    - git+https://github.com/xgcm/xgcm.git
