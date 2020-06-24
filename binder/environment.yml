@@ -2,7 +2,7 @@ name: geo-stack
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
+  - python=3.8
   - scipy
   - xarray
   - matplotlib
@@ -35,6 +35,8 @@ dependencies:
   - numpy
   - pandas
   - python-wget
+  - pyngl
+  - pynio
   - pip:
     - graphviz
     - dask_labextension
