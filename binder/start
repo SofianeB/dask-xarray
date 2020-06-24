@@ -8,5 +8,7 @@ sed -i -e "s|WORKSPACE_ID|/user/${JUPYTERHUB_USER}/lab|g" binder/jupyterlab-work
 # Import the workspace into JupyterLab
 jupyter lab workspaces import binder/jupyterlab-workspace.json \
   --NotebookApp.base_url=user/${JUPYTERHUB_USER}
+ 
+git clone https://github.com/KMFleischer/PyEarthScience.git
 
 exec "$@"
