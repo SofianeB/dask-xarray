@@ -2,7 +2,7 @@ name: geo-stack
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.7
   - scipy
   - xarray
   - matplotlib
@@ -10,7 +10,8 @@ dependencies:
   - distributed
   - intake
   - intake-xarray
-  - bokeh
+  - bokeh=1.4.0
+  - dask-labextension=1.1.0
   - holoviews>=1.12.3
   - panel
   - geoviews
@@ -25,18 +26,16 @@ dependencies:
   - lz4
   - nbserverproxy
   - jupyter
-  - jupyterlab=1.0
+  - jupyterlab=1.*
   - ipywidgets
   - ipyleaflet
-  - tornado=5.1.1
+  - tornado=5
   - python-wget
   - pip
   - nc-time-axis
   - numpy
   - pandas
   - python-wget
-  - pyngl
-  - pynio
   - pip:
     - graphviz
-    - dask_labextension
+  
