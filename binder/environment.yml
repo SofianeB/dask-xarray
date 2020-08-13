@@ -11,7 +11,7 @@ dependencies:
   - intake
   - intake-xarray
   - bokeh=1.4.0
-  - dask-labextension=1.1.0
+  - dask-labextension=3.0.0
   - holoviews>=1.12.3
   - panel
   - geoviews
@@ -26,7 +26,7 @@ dependencies:
   - lz4
   - nbserverproxy
   - jupyter
-  - jupyterlab=1.*
+  - jupyterlab
   - ipywidgets
   - ipyleaflet
   - tornado=5
